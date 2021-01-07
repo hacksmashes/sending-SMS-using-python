@@ -3,12 +3,12 @@ import json
 
 url = "https://www.fast2sms.com/dev/bulk"
 my_data = { 'sender_id': 'FSTSMS',  
-                 'message': "your child didn't attend the class today, so kindly meet & speak with his class teacher tomorrow",                  
+                 'message': "***************",    # type the message here  
                  'language': 'english', 
                  'route': 'p', 
-                 'numbers': 9080964552} 
+                 'numbers': **********} # type the number to whom u want to send sms
 
-headers = { 'authorization': 'NZ6vWLcC790uoTAhatBkgMYFesmVribHS8qI52R3dEnx1fQjlX3TAJSerIM82opHkN90biVnqOUK16gE',   
+headers = { 'authorization': '*********************************************************',  # type the authorization key    
                 'Content-Type': "application/x-www-form-urlencoded", 
                 'Cache-Control': "no-cache"}
 
